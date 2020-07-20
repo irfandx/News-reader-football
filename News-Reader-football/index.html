@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>FootballApp</title>
+    <meta name="description" content="My first PWA" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/materialize.min.css" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#ffd740" />
+  </head>
+  <body>
+    <!-- Navigasi -->
+    <nav class="yellow darken-3" role="navigation">
+      <div class="nav-wrapper container">
+        <a href="#" class="brand-logo" id="logo-container">FootballApp</a>
+        <a href="#" class="sidenav-trigger" data-target="nav-mobile">&#9776;</a>
+
+        <ul class="topnav right hide-on-med-and-down "></ul>
+        <ul class="sidenav amber accent-2" id="nav-mobile"></ul>
+      </div>
+    </nav>
+    <!-- Akhir Navigasi -->
+    <div class="container" id="body-content"></div>
+    <!--file di bawah tersimpan di folde js-->
+    <script src="js/materialize.min.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/idb.js"></script> <!-- mayerorror -->
+    <script src="js/db.js"></script> <!-- mayerorror -->
+    <script src="js/swadd.js"></script>
+
+  </body>
+</html>
